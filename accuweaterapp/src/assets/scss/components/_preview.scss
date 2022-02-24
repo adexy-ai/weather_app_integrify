@@ -1,0 +1,40 @@
+.preview-container {
+    border-radius: 16px;
+    align-items: center;
+    background-color: rgba(29, 29, 29, 0.32);
+    display: flex;
+    flex-direction: column;
+
+
+    .img-container {
+        width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+
+    }
+
+    .info-container {
+        background-color: #ffffffa8;
+        width: 100%;
+        text-align: center;
+        padding: 5px 10px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+
+        .description {
+            height: 75px;
+        }
+
+        a {
+            font-size: 1rem;
+            color:black;
+            transition: all .3s;
+            &:hover {
+                font-weight: 700;
+            };
+        }
+    }
+}
